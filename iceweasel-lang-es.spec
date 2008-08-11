@@ -5,7 +5,7 @@ Summary(es.UTF-8):	Recursos españoles para Iceweasel
 Summary(pl.UTF-8):	Hiszpańskie pliki językowe dla Iceweasel
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/es-ES.xpi
