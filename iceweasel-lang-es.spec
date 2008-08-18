@@ -66,15 +66,6 @@ rm -f locale/branding/brand.dtd locale/branding/brand.properties \
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post
-cat << 'EOF'
-NOTE: You must also change your default useragent locale:
-  Open Iceweasel and type in URL: "about:config" then
-  find "general.useragent.locale" and change value
-  to "es-ES" then restart Iceweasel.
-
-EOF
-
 %files
 %defattr(644,root,root,755)
 %{_chromedir}/es-ES.jar
